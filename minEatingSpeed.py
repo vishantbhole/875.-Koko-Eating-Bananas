@@ -13,7 +13,7 @@ class Solution(object):
         res = right
         
         while left <= right:
-            k = (left + r
+            k = (left + right) // 2
             hours = 0
             for p in piles:
                 hours += math.ceil(p/k)
