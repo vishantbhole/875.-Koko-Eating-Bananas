@@ -11,3 +11,6 @@ class Solution(object):
         right = max(piles)
 
         res = right
+        
+        while left <= right:
+            k = (left + r
