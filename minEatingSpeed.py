@@ -7,3 +7,7 @@ class Solution(object):
         :type h: int
         :rtype: int
         """
+        left = 1
+        right = max(piles)
+
+        res = right
