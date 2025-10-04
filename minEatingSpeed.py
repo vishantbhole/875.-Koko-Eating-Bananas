@@ -14,3 +14,12 @@ class Solution(object):
         
         while left <= right:
             k = (left + r
+            hours = 0
+            for p in piles:
+                hours += math.ceil(p/k)
+            if hours <= h:
+                res = min(res, k)
+                right = k - 1
+            else:
+                left = k + 1
+        return res
