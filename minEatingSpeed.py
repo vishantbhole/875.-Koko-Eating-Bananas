@@ -30,3 +30,9 @@ if __name__ == "__main__":
     h = 8
 
     print("Output is : ", sol.minEatingSpeed(piles,h))
+    
+    piles2 = [30,11,23,4,20]
+    h2 = 5
+
+    print("Output is : ", sol.minEatingSpeed(piles2,h2))
+
